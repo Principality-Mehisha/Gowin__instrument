@@ -1,0 +1,248 @@
+{
+    "Device": "GW5AT-60B",
+    "Files": [
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/ip/audio_fifo32/audio_fifo32.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/ip/audio_pll150/audio_pll150.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/ip/audio_pll150/audio_pll150_mod.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/audio_clock150.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/audio_cdc_fifo.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/audio_domain_bridge.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/audio_effects.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/input/pressure/pressure_adc_scan.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/input/pressure/pitch_group_select.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/input/pressure/pressure_keyboard.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/input/pressure/pressure_keys.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/input/pressure/pressure_events.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/input/pressure/pressure_note_merge.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/adsr_pipeline.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/instrument_voice_bank.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/marimba_body_filter.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/marimba_synth.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/output_limiter.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/piano_synth.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/sine_pair_rom.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/audio/pt8211_score_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/board/GW_PROBLEM_TOW.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/board/board_reset.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/board/piano_score_player.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/control/bluetooth_file_receiver.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/control/playback_control.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/control/tjc_status_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/control/uart_note_audition.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/control/uart_rx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/control/uart_score_control.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/control/uart_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/fixed_slot_reader.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/fixed_slot_writer.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/piano_score_reader.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/piano_score_sequencer.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/score_file_name.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/sd_score_stream.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/sd_spi_byte.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/sd_spi_reader.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/storage/slot_card_query.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/system/instrument_system.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/analysis_frame_cdc.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/dvi_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_analysis_scene.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_audio_analysis.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_keymap.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_live_roll.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_roll_line.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_scene.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_score_rom.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/piano_video.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/playback_video_cdc.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/pll_init.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/tmds_encoder.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/video_clock.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/video_source.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/video/waterfall_engine.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/ws2812_key_guide.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/30415/Desktop/Gowin_code/src/ws2812_static.v",
+            "Type": "verilog"
+        }
+    ],
+    "IncludePath": [
+    ],
+    "LoopLimit": 2000,
+    "ResultFile": "C:/Users/30415/Desktop/Gowin_code/impl/temp/rtl_parser.result",
+    "Top": "GW_PROBLEM_TOW",
+    "VerilogStd": "verilog_2001",
+    "VhdlStd": "vhdl_93"
+}

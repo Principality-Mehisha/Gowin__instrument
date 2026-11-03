@@ -1,0 +1,579 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ENhttp://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Power Analysis Report</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+div#main_wrapper { width: 100%; }
+div#content { margin-left: 350px; margin-right: 30px; }
+div#catalog_wrapper {position: fixed; top: 30px; width: 350px; float: left; }
+div#catalog ul { list-style-type: none; }
+div#catalog li { text-align: left; list-style-type:circle; color: #0084ff; margin-top: 3px; margin-bottom: 3px; }
+div#catalog a { display:inline-block; text-decoration: none; color: #0084ff; font-weight: bold; padding: 3px; }
+div#catalog a:visited { color: #0084ff; }
+div#catalog a:hover { color: #fff; background: #0084ff; }
+hr { margin-top: 30px; margin-bottom: 30px; }
+h1, h3 { text-align: center; }
+h1 {margin-top: 50px; }
+table, th, td {white-space:pre;  border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { padding: 5px 5px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table.summary_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.thermal_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.Configure_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.detail_table th.label {  min-width: 8%; width: 8%; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="catalog_wrapper">
+<div id="catalog">
+<ul>
+<li><a href="#Message" style=" font-size: 16px;">Power Messages</a>
+<ul>
+<li><a href="#Configure_Info" style=" font-size: 14px;">Configure Information</a></li>
+</ul>
+</li>
+<li><a href="#Summary" style=" font-size: 16px;">Power Summary</a>
+<ul>
+<li><a href="#Power_Info" style=" font-size: 14px;">Power Information</a></li>
+<li><a href="#Thermal_Info" style=" font-size: 14px;">Thermal Information</a></li>
+<li><a href="#Supply_Summary" style=" font-size: 14px;">Supply Information</a></li>
+</ul>
+</li>
+<li><a href="#Detail" style=" font-size: 16px;">Power Details</a>
+<ul>
+<li><a href="#By_Block_Type" style=" font-size: 14px;">Power By Block Type</a></li>
+<li><a href="#By_Hierarchy" style=" font-size: 14px;">Power By Hierarchy</a></li>
+<li><a href="#By_Clock_Domain" style=" font-size: 14px;">Power By Clock Domain</a></li>
+</ul>
+</li>
+</ul>
+</div><!-- catalog -->
+</div><!-- catalog_wrapper -->
+<div id="content">
+<h1><a name="Message">Power Messages</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Report Title</td>
+<td>Power Analysis Report</td>
+</tr>
+<tr>
+<td class="label">Design File</td>
+<td>C:\Users\30415\Desktop\Gowin_code\impl\gwsynthesis\GW_PROBLEM_TOW.vg</td>
+</tr>
+<tr>
+<td class="label">Physical Constraints File</td>
+<td>C:\Users\30415\Desktop\Gowin_code\src\board\GW_PROBLEM_TOW.cst</td>
+</tr>
+<tr>
+<td class="label">Timing Constraints File</td>
+<td>C:\Users\30415\Desktop\Gowin_code\src\board\GW_PROBLEM_TOW.sdc</td>
+</tr>
+<tr>
+<td class="label">Tool Version</td>
+<td>V1.9.12.03 (64-bit)</td>
+</tr>
+<tr>
+<td class="label">Part Number</td>
+<td>GW5AT-LV60PG484AC1/I0</td>
+</tr>
+<tr>
+<td class="label">Device</td>
+<td>GW5AT-60</td>
+</tr>
+<tr>
+<td class="label">Device Version</td>
+<td>B</td>
+</tr>
+<tr>
+<td class="label">Created Time</td>
+<td>Wed Nov  4 05:34:06 2026
+</td>
+</tr>
+<tr>
+<td class="label">Legal Announcement</td>
+<td>Copyright (C)2014-2026 Gowin Semiconductor Corporation. All rights reserved.</td>
+</tr>
+</table>
+<h2><a name="Configure_Info">Configure Information:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Grade</td>
+<td>Commercial</td>
+</tr>
+<tr>
+<td class="label">Process</td>
+<td>Typical</td>
+</tr>
+<tr>
+<td class="label">Ambient Temperature</td>
+<td>25.000
+</tr>
+<tr>
+<td class="label">Use Custom Theta JA</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Heat Sink</td>
+<td>None</td>
+</tr>
+<tr>
+<td class="label">Air Flow</td>
+<td>LFM_0</td>
+</tr>
+<tr>
+<td class="label">Use Custom Theta SA</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Board Thermal Model</td>
+<td>None</td>
+</tr>
+<tr>
+<td class="label">Use Custom Theta JB</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Related Vcd File</td>
+<td></td>
+</tr>
+<tr>
+<td class="label">Related Saif File</td>
+<td></td>
+</tr>
+<tr>
+<td class="label">Filter Glitches</td>
+<td>false</td>
+</tr>
+<tr>
+<td class="label">Default IO Toggle Rate</td>
+<td>0.125</td>
+</tr>
+<tr>
+<td class="label">Default Remain Toggle Rate</td>
+<td>0.125</td>
+</tr>
+</table>
+<h1><a name="Summary">Power Summary</a></h1>
+<h2><a name="Power_Info">Power Information:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Total Power (mW)</td>
+<td>747.837</td>
+</tr>
+<tr>
+<td class="label">Quiescent Power (mW)</td>
+<td>83.544</td>
+</tr>
+<tr>
+<td class="label">Dynamic Power (mW)</td>
+<td>664.293</td>
+</tr>
+</table>
+<h2><a name="Thermal_Info">Thermal Information:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label">Junction Temperature</td>
+<td>37.828</td>
+</tr>
+<tr>
+<td class="label">Theta JA</td>
+<td>17.153</td>
+</tr>
+<tr>
+<td class="label">Max Allowed Ambient Temperature</td>
+<td>72.172</td>
+</tr>
+</table>
+<h2><a name="Supply_Summary">Supply Information:</a></h2>
+<table class="summary_table">
+<tr>
+<th class="label">Voltage Source</th>
+<th class="label">Voltage</th>
+<th class="label">Dynamic Current(mA)</th>
+<th class="label">Quiescent Current(mA)</th>
+<th class="label">Power(mW)</th>
+</tr>
+<tr>
+<td>VCC</td>
+<td>0.950</td>
+<td>675.112</td>
+<td>71.251</td>
+<td>709.044</td>
+</tr>
+<tr>
+<td>VCCX</td>
+<td>3.300</td>
+<td>1.516</td>
+<td>4.000</td>
+<td>18.203</td>
+</tr>
+<tr>
+<td>VCCIO15</td>
+<td>1.500</td>
+<td>0.008</td>
+<td>0.015</td>
+<td>0.034</td>
+</tr>
+<tr>
+<td>VCCIO33</td>
+<td>3.300</td>
+<td>5.431</td>
+<td>0.798</td>
+<td>20.554</td>
+</tr>
+</table>
+<h1><a name="Detail">Power Details</a></h1>
+<h2><a name="By_Block_Type">Power By Block Type:</a></h2>
+<table class="detail_table">
+<tr>
+<th class="label">Block Type</th>
+<th class="label">Total Power(mW)</th>
+<th class="label">Static Power(mW)</th>
+<th class="label">Average Toggle Rate(millions of transitions/sec)</th>
+</tr>
+<tr>
+<td>Logic</td>
+<td>17.702</td>
+<td>NA</td>
+<td>10.346</td>
+</tr>
+<tr>
+<td>IO</td>
+<td>34.347
+<td>9.870
+<td>12.524
+</tr>
+<tr>
+<td>BSRAM</td>
+<td>514.973
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>PLL</td>
+<td>26.734
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>DSP</td>
+<td>80.359
+<td>NA</td>
+<td>4.039
+</tr>
+</table>
+<h2><a name="By_Hierarchy">Power By Hierarchy:</a></h2>
+<table class="detail_table">
+<tr>
+<th class="label">Hierarchy Entity</th>
+<th class="label">Total Power(mW)</th>
+<th class="label">Block Dynamic Power(mW)</th>
+</tr>
+<tr>
+<td>GW_PROBLEM_TOW</td>
+<td>639.768</td>
+<td>639.768(639.767)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/</td>
+<td>41.872</td>
+<td>41.872(1.597)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/receiver/</td>
+<td>0.017</td>
+<td>0.017(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/transmitter/</td>
+<td>0.017</td>
+<td>0.017(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/validator/</td>
+<td>0.106</td>
+<td>0.106(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/writer/</td>
+<td>1.457</td>
+<td>1.457(1.098)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/writer/host/</td>
+<td>0.406</td>
+<td>0.406(0.017)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/writer/host/u_spi/</td>
+<td>0.017</td>
+<td>0.017(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/bluetooth_upload/writer/query/</td>
+<td>0.692</td>
+<td>0.692(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/</td>
+<td>82.292</td>
+<td>82.292(82.287)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/analysis_frames/</td>
+<td>9.004</td>
+<td>9.004(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/analyzer/</td>
+<td>15.770</td>
+<td>15.770(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/clocks/</td>
+<td>17.782</td>
+<td>17.782(0.595)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/clocks/init/</td>
+<td>0.595</td>
+<td>0.595(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/display_cdc/</td>
+<td>0.119</td>
+<td>0.119(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/source/</td>
+<td>39.321</td>
+<td>39.321(39.292)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/source/analysis_scene/</td>
+<td>0.692</td>
+<td>0.692(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/source/scene/</td>
+<td>38.600</td>
+<td>38.600(38.493)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/source/scene/keymap/</td>
+<td>1.585</td>
+<td>1.585(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/source/scene/live_line.live/</td>
+<td>36.909</td>
+<td>36.909(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/tx/</td>
+<td>0.291</td>
+<td>0.291(0.291)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/tx/enc_blue/</td>
+<td>0.098</td>
+<td>0.098(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/tx/enc_green/</td>
+<td>0.096</td>
+<td>0.096(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/display_enabled.video/tx/enc_red/</td>
+<td>0.096</td>
+<td>0.096(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/dynamic_leds/</td>
+<td>0.081</td>
+<td>0.081(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/pressure_adc_enabled.adc_interface/</td>
+<td>0.026</td>
+<td>0.026(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/</td>
+<td>515.472</td>
+<td>515.472(515.338)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/audio/</td>
+<td>0.196</td>
+<td>0.196(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/audio_clocks/</td>
+<td>10.145</td>
+<td>10.145(10.144)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/audio_clocks/pll/</td>
+<td>10.144</td>
+<td>10.144(10.144)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/audio_clocks/pll/u_pll/</td>
+<td>9.548</td>
+<td>9.548(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/audio_clocks/pll/u_pll_init/</td>
+<td>0.596</td>
+<td>0.596(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/reset_controller/</td>
+<td>0.051</td>
+<td>0.051(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/score_stream/</td>
+<td>15.600</td>
+<td>15.600(15.599)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/score_stream/decoder/</td>
+<td>0.108</td>
+<td>0.108(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/score_stream/sd/</td>
+<td>0.372</td>
+<td>0.372(0.017)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/score_stream/sd/u_spi/</td>
+<td>0.017</td>
+<td>0.017(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/score_stream/sequencer/</td>
+<td>11.535</td>
+<td>11.535(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/score_stream/slot_reader/</td>
+<td>3.584</td>
+<td>3.584(0.795)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/score_stream/slot_reader/query/</td>
+<td>0.795</td>
+<td>0.795(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/</td>
+<td>488.890</td>
+<td>488.890(488.707)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/clock_bridge/</td>
+<td>22.956</td>
+<td>22.956(22.808)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/clock_bridge/commands/</td>
+<td>11.398</td>
+<td>11.398(11.382)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/clock_bridge/commands/fifo/</td>
+<td>11.382</td>
+<td>11.382(11.382)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/clock_bridge/commands/fifo/fifo_inst/</td>
+<td>11.382</td>
+<td>11.382(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/clock_bridge/feedback/</td>
+<td>11.410</td>
+<td>11.410(11.403)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/clock_bridge/feedback/fifo/</td>
+<td>11.403</td>
+<td>11.403(11.403)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/clock_bridge/feedback/fifo/fifo_inst/</td>
+<td>11.403</td>
+<td>11.403(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/control/</td>
+<td>0.015</td>
+<td>0.015(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/effects/</td>
+<td>128.234</td>
+<td>128.234(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/pressure_input.groups/</td>
+<td>0.016</td>
+<td>0.016(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/pressure_input.keyboard/</td>
+<td>0.881</td>
+<td>0.881(0.870)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/pressure_input.keyboard/events/</td>
+<td>0.283</td>
+<td>0.283(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/pressure_input.keyboard/keys/</td>
+<td>0.499</td>
+<td>0.499(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/pressure_input.keyboard/notes/</td>
+<td>0.088</td>
+<td>0.088(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/uart_notes/</td>
+<td>0.041</td>
+<td>0.041(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/voices/</td>
+<td>336.564</td>
+<td>336.564(336.474)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/voices/limiter/</td>
+<td>8.153</td>
+<td>8.153(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/voices/marimba/</td>
+<td>80.049</td>
+<td>80.049(16.194)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/voices/marimba/body_filter/</td>
+<td>16.194</td>
+<td>16.194(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/voices/piano/</td>
+<td>246.664</td>
+<td>246.664(0.537)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/voices/piano/envelope_unit/</td>
+<td>0.537</td>
+<td>0.537(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/system/voices/shared_wave/</td>
+<td>1.608</td>
+<td>1.608(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/uart_control.link/</td>
+<td>0.455</td>
+<td>0.455(0.090)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/uart_control.link/formatter/</td>
+<td>0.016</td>
+<td>0.016(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/uart_control.link/receiver/</td>
+<td>0.016</td>
+<td>0.016(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/score_player/uart_control.link/transmitter/</td>
+<td>0.058</td>
+<td>0.058(0.000)</td>
+<tr>
+<td>GW_PROBLEM_TOW/static_leds/</td>
+<td>0.025</td>
+<td>0.025(0.000)</td>
+</table>
+<h2><a name="By_Clock_Domain">Power By Clock Domain:</a></h2>
+<table class="detail_table">
+<tr>
+<th class="label">Clock Domain</th>
+<th class="label">Clock Frequency(Mhz)</th>
+<th class="label">Total Dynamic Power(mW)</th>
+</tr>
+<tr>
+<td>sys_clk</td>
+<td>50.000</td>
+<td>111.737</td>
+</tr>
+<tr>
+<td>audio_clk</td>
+<td>150.000</td>
+<td>482.235</td>
+</tr>
+<tr>
+<td>pixel_clk</td>
+<td>108.000</td>
+<td>45.813</td>
+</tr>
+<tr>
+<td>serial_clk</td>
+<td>540.000</td>
+<td>0.031</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

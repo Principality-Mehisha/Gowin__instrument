@@ -1,0 +1,197 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\ip\audio_fifo32\audio_fifo32.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\ip\audio_pll150\audio_pll150.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\ip\audio_pll150\audio_pll150_mod.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\audio_clock150.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\audio_cdc_fifo.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\audio_domain_bridge.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_adc_scan.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pitch_group_select.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_keyboard.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_keys.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_events.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_note_merge.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\adsr_pipeline.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\instrument_voice_bank.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_body_filter.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\output_limiter.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\sine_pair_rom.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\audio\pt8211_score_tx.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\board\GW_PROBLEM_TOW.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\board\board_reset.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\board\piano_score_player.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\control\bluetooth_file_receiver.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\control\playback_control.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\control\tjc_status_tx.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\control\uart_note_audition.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\control\uart_rx.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\control\uart_score_control.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\control\uart_tx.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\fixed_slot_reader.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\fixed_slot_writer.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\piano_score_reader.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\piano_score_sequencer.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\score_file_name.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\sd_score_stream.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\sd_spi_byte.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\sd_spi_reader.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\storage\slot_card_query.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\system\instrument_system.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\analysis_frame_cdc.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\dvi_tx.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_analysis_scene.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_keymap.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_live_roll.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_roll_line.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_scene.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_score_rom.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\piano_video.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\playback_video_cdc.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\pll_init.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\tmds_encoder.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\video_clock.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\video_source.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\video\waterfall_engine.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\ws2812_key_guide.v'
+Analyzing Verilog file 'C:\Users\30415\Desktop\Gowin_code\src\ws2812_static.v'
+Compiling module 'GW_PROBLEM_TOW'("C:\Users\30415\Desktop\Gowin_code\src\board\GW_PROBLEM_TOW.v":2)
+Compiling module 'pressure_adc_scan(SAMPLE_CYCLE=1490)'("C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_adc_scan.v":3)
+Compiling module 'bluetooth_file_receiver'("C:\Users\30415\Desktop\Gowin_code\src\control\bluetooth_file_receiver.v":3)
+Extracting RAM for identifier 'fifo'("C:\Users\30415\Desktop\Gowin_code\src\control\bluetooth_file_receiver.v":45)
+Compiling module 'uart_rx(BAUD=115200)'("C:\Users\30415\Desktop\Gowin_code\src\control\uart_rx.v":3)
+Compiling module 'uart_tx(BAUD=115200)'("C:\Users\30415\Desktop\Gowin_code\src\control\uart_tx.v":2)
+Compiling module 'score_file_name'("C:\Users\30415\Desktop\Gowin_code\src\storage\score_file_name.v":2)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\30415\Desktop\Gowin_code\src\storage\score_file_name.v":9)
+Compiling module 'fixed_slot_writer'("C:\Users\30415\Desktop\Gowin_code\src\storage\fixed_slot_writer.v":3)
+Compiling module 'slot_card_query'("C:\Users\30415\Desktop\Gowin_code\src\storage\slot_card_query.v":3)
+Compiling module 'sd_spi_reader(READ_HALF_DIV=63)'("C:\Users\30415\Desktop\Gowin_code\src\storage\sd_spi_reader.v":4)
+Compiling module 'sd_spi_byte'("C:\Users\30415\Desktop\Gowin_code\src\storage\sd_spi_byte.v":2)
+Compiling module 'piano_score_reader(DYNAMIC_FORMAT=1)'("C:\Users\30415\Desktop\Gowin_code\src\storage\piano_score_reader.v":3)
+Compiling module 'ws2812_static(COLOR_LEVEL=8'b01000000)'("C:\Users\30415\Desktop\Gowin_code\src\ws2812_static.v":3)
+Compiling module 'ws2812_key_guide'("C:\Users\30415\Desktop\Gowin_code\src\ws2812_key_guide.v":3)
+Compiling module 'piano_score_player(PRESSURE_ENABLE=1)'("C:\Users\30415\Desktop\Gowin_code\src\board\piano_score_player.v":3)
+Compiling module 'audio_clock150'("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_clock150.v":2)
+Compiling module 'Gowin_Audio_PLL150'("C:\Users\30415\Desktop\Gowin_code\ip\audio_pll150\audio_pll150.v":1)
+Compiling module 'Gowin_Audio_PLL150_MOD'("C:\Users\30415\Desktop\Gowin_code\ip\audio_pll150\audio_pll150_mod.v":11)
+Compiling module 'PLL_INIT(MULTI_FAC=15)'("C:\Users\30415\Desktop\Gowin_code\src\video\pll_init.v":4)
+Compiling module 'board_reset'("C:\Users\30415\Desktop\Gowin_code\src\board\board_reset.v":2)
+Compiling module 'uart_score_control(BAUD=115200,TIMEOUT_CYCLES=1000000)'("C:\Users\30415\Desktop\Gowin_code\src\control\uart_score_control.v":4)
+Extracting RAM for identifier 'replies'("C:\Users\30415\Desktop\Gowin_code\src\control\uart_score_control.v":64)
+Compiling module 'tjc_status_tx'("C:\Users\30415\Desktop\Gowin_code\src\control\tjc_status_tx.v":4)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 4("C:\Users\30415\Desktop\Gowin_code\src\control\tjc_status_tx.v":35)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 4("C:\Users\30415\Desktop\Gowin_code\src\control\tjc_status_tx.v":35)
+Compiling module 'sd_score_stream'("C:\Users\30415\Desktop\Gowin_code\src\storage\sd_score_stream.v":2)
+Compiling module 'fixed_slot_reader'("C:\Users\30415\Desktop\Gowin_code\src\storage\fixed_slot_reader.v":2)
+Extracting RAM for identifier 'sector'("C:\Users\30415\Desktop\Gowin_code\src\storage\fixed_slot_reader.v":30)
+Compiling module 'piano_score_sequencer'("C:\Users\30415\Desktop\Gowin_code\src\storage\piano_score_sequencer.v":4)
+Extracting RAM for identifier 'fifo'("C:\Users\30415\Desktop\Gowin_code\src\storage\piano_score_sequencer.v":35)
+Compiling module 'pt8211_score_tx(BCK_HALF_DIV=48,AMP_START_CYCLES=7500000)'("C:\Users\30415\Desktop\Gowin_code\src\audio\pt8211_score_tx.v":6)
+WARN  (EX3073) : Port 'pcm_valid' remains unconnected for this instance("C:\Users\30415\Desktop\Gowin_code\src\system\instrument_system.v":250)
+Compiling module 'instrument_system(PRESSURE_ENABLE=1,MARIMBA_MODE_FILE="src\rom\marimba48_48828.hex",DDS_PITCH_RATIO=18'b001111101110101001)'("C:\Users\30415\Desktop\Gowin_code\src\system\instrument_system.v":2)
+Compiling module 'pitch_group_select'("C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pitch_group_select.v":3)
+Compiling module 'pressure_keyboard'("C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_keyboard.v":1)
+Compiling module 'pressure_keys'("C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_keys.v":3)
+Compiling module 'pressure_events'("C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_events.v":3)
+Extracting RAM for identifier 'fifo'("C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_events.v":21)
+Compiling module 'pressure_note_merge'("C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_note_merge.v":4)
+Compiling module 'playback_control'("C:\Users\30415\Desktop\Gowin_code\src\control\playback_control.v":2)
+Compiling module 'uart_note_audition'("C:\Users\30415\Desktop\Gowin_code\src\control\uart_note_audition.v":5)
+Compiling module 'audio_domain_bridge'("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_domain_bridge.v":3)
+Compiling module 'audio_cdc_fifo'("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_cdc_fifo.v":3)
+Compiling module 'Gowin_Audio_FIFO32'("C:\Users\30415\Desktop\Gowin_code\ip\audio_fifo32\audio_fifo32.v":343)
+Compiling module '**'("C:\Users\30415\Desktop\Gowin_code\ip\audio_fifo32\audio_fifo32.v":342)
+WARN  (EX3073) : Port 'pcm' remains unconnected for this instance("C:\Users\30415\Desktop\Gowin_code\src\audio\instrument_voice_bank.v":59)
+WARN  (EX3073) : Port 'mix_sample' remains unconnected for this instance("C:\Users\30415\Desktop\Gowin_code\src\audio\instrument_voice_bank.v":70)
+Compiling module 'instrument_voice_bank(LIVE_DYNAMICS=1,SAMPLE_RATE_RATIO=3,MARIMBA_MODE_FILE="src\rom\marimba48_48828.hex")'("C:\Users\30415\Desktop\Gowin_code\src\audio\instrument_voice_bank.v":2)
+Compiling module 'sine_pair_rom'("C:\Users\30415\Desktop\Gowin_code\src\audio\sine_pair_rom.v":2)
+Extracting RAM for identifier 'memory'("C:\Users\30415\Desktop\Gowin_code\src\audio\sine_pair_rom.v":9)
+Compiling module 'piano_synth(EXTERNAL_LIMITER=1,EXTERNAL_SINE=1,LIVE_DYNAMICS=1,SAMPLE_RATE_RATIO=3)'("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":3)
+Extracting RAM for identifier 'dynamics'("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":55)
+Extracting RAM for identifier 'voice_ram'("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":59)
+Extracting RAM for identifier 'partial_ram'("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":73)
+Extracting RAM for identifier 'voicing_rom'("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":87)
+Extracting RAM for identifier 'frequency_rom'("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":95)
+Extracting RAM for identifier 'decay_rom'("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":96)
+Compiling module 'adsr_pipeline(ATTACK_STEP=24'b000000010001000100010010,DECAY_STEP=24'b000000000000001011000111,SUSTAIN_LEVEL=24'b001100000000000000000000)'("C:\Users\30415\Desktop\Gowin_code\src\audio\adsr_pipeline.v":2)
+WARN  (EX3791) : Expression size 22 truncated to fit in target size 16("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":288)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":289)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 17("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":337)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":451)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v":545)
+Compiling module 'marimba_synth(EXTERNAL_LIMITER=1,EXTERNAL_SINE=1,SAMPLE_RATE_RATIO=3,MODE_FILE="src\rom\marimba48_48828.hex")'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":4)
+Extracting RAM for identifier 'dynamics_by_note'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":47)
+Extracting RAM for identifier 'mode_state_ram'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":50)
+Extracting RAM for identifier 'noise_state_ram'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":51)
+Extracting RAM for identifier 'mode_rom'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":55)
+Extracting RAM for identifier 'initial_modes'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":124)
+Extracting RAM for identifier 'initial_attacks'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":125)
+Compiling module 'marimba_body_filter(SAMPLE_RATE_RATIO=3)'("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_body_filter.v":3)
+WARN  (EX3791) : Expression size 42 truncated to fit in target size 40("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_body_filter.v":53)
+WARN  (EX3791) : Expression size 56 truncated to fit in target size 40("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_body_filter.v":54)
+WARN  (EX3791) : Expression size 42 truncated to fit in target size 40("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_body_filter.v":66)
+WARN  (EX3791) : Expression size 56 truncated to fit in target size 40("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_body_filter.v":67)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":248)
+WARN  (EX3791) : Expression size 41 truncated to fit in target size 32("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":319)
+WARN  (EX3791) : Expression size 40 truncated to fit in target size 32("C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v":324)
+Compiling module 'output_limiter(SAMPLE_RATE_RATIO=3)'("C:\Users\30415\Desktop\Gowin_code\src\audio\output_limiter.v":3)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 22("C:\Users\30415\Desktop\Gowin_code\src\audio\output_limiter.v":42)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\30415\Desktop\Gowin_code\src\audio\output_limiter.v":63)
+WARN  (EX3791) : Expression size 24 truncated to fit in target size 23("C:\Users\30415\Desktop\Gowin_code\src\audio\output_limiter.v":90)
+Compiling module 'audio_effects(CLOCK_HZ=150000000,CONTROL_RATE_RATIO=3)'("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v":3)
+Extracting RAM for identifier 'memory'("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v":35)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v":113)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 18("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v":154)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 18("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v":169)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 18("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v":184)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 18("C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v":196)
+Compiling module 'piano_video'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_video.v":2)
+Compiling module 'video_clock'("C:\Users\30415\Desktop\Gowin_code\src\video\video_clock.v":2)
+Compiling module 'PLL_INIT(MULTI_FAC=27)'("C:\Users\30415\Desktop\Gowin_code\src\video\pll_init.v":4)
+Compiling module 'playback_video_cdc(REALTIME=1)'("C:\Users\30415\Desktop\Gowin_code\src\video\playback_video_cdc.v":2)
+Compiling module 'piano_audio_analysis'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v":4)
+Extracting RAM for identifier 'fft_ram'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v":21)
+Extracting RAM for identifier 'wave_ram'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v":22)
+Extracting RAM for identifier 'window_rom'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v":23)
+Extracting RAM for identifier 'twiddle_rom'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v":24)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v":145)
+Compiling module 'analysis_frame_cdc'("C:\Users\30415\Desktop\Gowin_code\src\video\analysis_frame_cdc.v":3)
+Extracting RAM for identifier 'frames'("C:\Users\30415\Desktop\Gowin_code\src\video\analysis_frame_cdc.v":14)
+Compiling module 'video_source(REALTIME=1,ANALYSIS_RATE_RATIO=3)'("C:\Users\30415\Desktop\Gowin_code\src\video\video_source.v":3)
+Compiling module 'piano_analysis_scene(SAMPLE_RATE_RATIO=3)'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_analysis_scene.v":2)
+Extracting RAM for identifier 'font_rows'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_analysis_scene.v":20)
+WARN  (EX2526) : Entry size 8 at src/video/analysis_font.hex:1 does not match memory width 5("C:\Users\30415\Desktop\Gowin_code\src\video\piano_analysis_scene.v":21)
+Compiling module 'piano_scene(REALTIME=1)'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_scene.v":2)
+Compiling module 'piano_keymap'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_keymap.v":3)
+Compiling module 'piano_live_roll'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_live_roll.v":5)
+Extracting RAM for identifier 'history'("C:\Users\30415\Desktop\Gowin_code\src\video\piano_live_roll.v":12)
+Compiling module 'dvi_tx'("C:\Users\30415\Desktop\Gowin_code\src\video\dvi_tx.v":2)
+Compiling module 'tmds_encoder'("C:\Users\30415\Desktop\Gowin_code\src\video\tmds_encoder.v":2)
+NOTE  (EX0101) : Current top module is "GW_PROBLEM_TOW"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input KEY0 is unused("C:\Users\30415\Desktop\Gowin_code\src\board\GW_PROBLEM_TOW.v":18)
+WARN  (CV0016) : Input KEY1 is unused("C:\Users\30415\Desktop\Gowin_code\src\board\GW_PROBLEM_TOW.v":18)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "score_file_name" instantiated to "names" is swept in optimizing("C:\Users\30415\Desktop\Gowin_code\src\control\bluetooth_file_receiver.v":65)
+WARN  (NL0002) : The module "score_file_name" instantiated to "name_map" is swept in optimizing("C:\Users\30415\Desktop\Gowin_code\src\storage\sd_score_stream.v":39)
+[95%] Generate netlist file "C:\Users\30415\Desktop\Gowin_code\impl\gwsynthesis\GW_PROBLEM_TOW.vg" completed
+[100%] Generate report file "C:\Users\30415\Desktop\Gowin_code\impl\gwsynthesis\GW_PROBLEM_TOW_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AT-60B" package="PBGA484A" speed="1" partNumber="GW5AT-LV60PG484AC1/I0"/>
+    <FileList>
+        <File path="C:\Users\30415\Desktop\Gowin_code\ip\audio_fifo32\audio_fifo32.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\ip\audio_pll150\audio_pll150.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\ip\audio_pll150\audio_pll150_mod.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\audio_clock150.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\audio_cdc_fifo.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\audio_domain_bridge.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\audio_effects.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_adc_scan.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pitch_group_select.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_keyboard.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_keys.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_events.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\input\pressure\pressure_note_merge.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\adsr_pipeline.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\instrument_voice_bank.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_body_filter.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\marimba_synth.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\output_limiter.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\piano_synth.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\sine_pair_rom.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\audio\pt8211_score_tx.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\board\GW_PROBLEM_TOW.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\board\board_reset.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\board\piano_score_player.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\control\bluetooth_file_receiver.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\control\playback_control.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\control\tjc_status_tx.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\control\uart_note_audition.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\control\uart_rx.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\control\uart_score_control.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\control\uart_tx.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\fixed_slot_reader.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\fixed_slot_writer.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\piano_score_reader.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\piano_score_sequencer.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\score_file_name.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\sd_score_stream.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\sd_spi_byte.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\sd_spi_reader.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\storage\slot_card_query.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\system\instrument_system.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\analysis_frame_cdc.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\dvi_tx.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_analysis_scene.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_audio_analysis.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_keymap.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_live_roll.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_roll_line.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_scene.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_score_rom.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\piano_video.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\playback_video_cdc.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\pll_init.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\tmds_encoder.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\video_clock.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\video_source.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\video\waterfall_engine.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\ws2812_key_guide.v" type="verilog"/>
+        <File path="C:\Users\30415\Desktop\Gowin_code\src\ws2812_static.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_style" value="auto"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="map_option" value="1"/>
+        <Option type="max_fanout" value="1000"/>
+        <Option type="netlist_hierarchy" value="1"/>
+        <Option type="opt_goal" value="auto"/>
+        <Option type="output_file" value="C:\Users\30415\Desktop\Gowin_code\impl\gwsynthesis\GW_PROBLEM_TOW.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="ram_style" value="auto"/>
+        <Option type="rom_style" value="auto"/>
+        <Option type="shift_reg" value="auto"/>
+        <Option type="top_module" value="GW_PROBLEM_TOW"/>
+        <Option type="vcc" value="0.95"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
